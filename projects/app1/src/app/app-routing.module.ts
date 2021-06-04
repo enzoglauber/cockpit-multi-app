@@ -3,12 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes:  Routes = [
   {
-    path: 'app1',
+    path: '',
     children: [
       { path: 'view1', loadChildren: () => import('./view1/view1.module').then(m => m.View1Module) }
     ]
   },
-  { path: '', redirectTo: 'app1', pathMatch: 'full' }
+  { path: 'app1', redirectTo: 'app1/view1', pathMatch: 'full' }
 ];
 
 

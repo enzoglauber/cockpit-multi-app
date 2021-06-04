@@ -5,10 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+`ng new cockpit-multi-app --routing`
 `ng serve --projet="app1"`
 `ng serve --project="app2" --port 4201`
 
 <!-- --app 1 -->
+`ng g application app1`
 `ng g m view1 --project=app1 --routing`
 `ng g c /view1 --project=app1`
 `ng g c /view1/view1-add --project=app1`
@@ -16,6 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 `ng g c /view1/view1-remove --project=app1`
 
 <!-- --app 2 -->
+`ng g application app2`
 `ng g m view1 --project=app2 --routing`
 `ng g c /view1 --project=app2`
 `ng g c /view1/view1-add --project=app2`
